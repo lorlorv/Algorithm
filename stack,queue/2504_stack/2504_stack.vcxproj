@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{da4e8928-3960-4bb1-8443-cc4b969a72f3}</ProjectGuid>
-    <RootNamespace>stack</RootNamespace>
+    <ProjectGuid>{8a279249-6312-443a-9d3c-f15d334a434d}</ProjectGuid>
+    <RootNamespace>My2504stack</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>2504_stack</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
