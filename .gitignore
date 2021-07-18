@@ -348,3 +348,7 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+/Sorting/1181_sort/1181_sort.vcxproj.filters
+/Sorting/1181_sort/1181_sort.vcxproj
+/Sorting/1181_sort/1181.c
+/Sorting/1181_sort
