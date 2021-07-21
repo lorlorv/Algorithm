@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-int list[1000000];
 int temp[1000000];
 
 void merge(int A[], int left, int mid, int right) {
@@ -49,13 +48,10 @@ int main(void) {
 	scanf("%d", &n);
 
 	for (i = 0; i < n; i++) {
-		scanf("%d", &list[i]);
 	}
 
-	mergeSort(list, 0, n - 1);
 	for (i = 0; i < n; i++)
 	{
-		printf("%d\n", list[i]);
 	}
 	return 0;
 }
