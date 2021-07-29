@@ -26,8 +26,8 @@ int partition(char list[][MAX_STRING], int left, int right) {
 			else if (size == pivot) {
 				if (strcmp(list[j], list[right]) > 0) {
 					strcpy(temp, list[right]);
-					strcpy(list[right], list[i + 1]);
-					strcpy(list[i + 1], temp);
+					strcpy(list[right], list[j]);
+					strcpy(list[j], temp);
 				}
 				i++;
 				j++;								
@@ -40,7 +40,6 @@ int partition(char list[][MAX_STRING], int left, int right) {
 				j++;
 			}
 		}
-		j++;
 
 		strcpy(temp, list[right]);
 		strcpy(list[right], list[i + 1]);
