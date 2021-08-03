@@ -1,11 +1,13 @@
 //1260-DFS와 BFS
 #include <stdio.h>
 #include <stdlib.h>
+
 #define MAX_VERTICES 1001
 #define TRUE 1;
 #define FALSE 0;
 
 int visited[MAX_VERTICES]; //방문시 1
+
 typedef struct GraphNode {
 	int vertex;
 	struct GraphNode* link;
@@ -25,7 +27,6 @@ typedef struct {
 //초기화
 void init_queue(QueueType* q) {
 	q->front = q->rear = 0;
-
 }
 
 //공백 상태 검출 함수
@@ -33,10 +34,6 @@ int is_empty(QueueType* q) {
 	return (q->front == q->rear);
 }
 
-//포화 상태 검출 함수
-int is_full(QueueType* q) {
-	return ((q->rear + 1) % MAX_VERTICES == q->front);
-}
 //삽입함수
 void enqueue(QueueType* q, element item) {
 	if (is_full(q)) {
@@ -88,6 +85,7 @@ void insert_edge(GraphType* g, int u, int v) {
 	//u를 v에 매단다. insert_last
 	node = (GraphNode*)malloc(sizeof(GraphNode));
 	node->vertex = v;
+
 	if (g->adj_list[u] == NULL) {//처음 insert
 		node->link = g->adj_list[u];
 		g->adj_list[u] = node;
@@ -102,9 +100,9 @@ void insert_edge(GraphType* g, int u, int v) {
 			pre = p;
 			p = p->link;			
 		}
+
 		if (flag == 1) {//중간에 삽입해야함
-			
-			if (p == g->adj_list[u]) { //
+			if (p == g->adj_list[u]) { //맨 첫자리에 삽입
 				node->link = g->adj_list[u];
 				g->adj_list[u] = node;
 			}
@@ -118,7 +116,6 @@ void insert_edge(GraphType* g, int u, int v) {
 			pre->link = node;
 		}
 	}
-
 }
 
 void dfs(GraphType* g, int v) {
@@ -127,11 +124,8 @@ void dfs(GraphType* g, int v) {
 	printf("%d ", v);
 
 	for (w = g->adj_list[v]; w != NULL; w = w->link) {
-		if (!visited[w->vertex]) {
-			
+		if (!visited[w->vertex])		
 			dfs(g, w->vertex);
-			
-		}
 	}
 }
 
@@ -153,10 +147,10 @@ void bfs(GraphType* g, int v) {
 				printf("%d ", w->vertex); 
 				enqueue(&q, w->vertex); // 시작정점의 인접 정점들을 큐에 추가한다.
 			}
-
 		}
 	}
 }
+
 void print_adj_list(GraphType* g) {
 	for (int i = 0; i < g->n; i++) {
 		GraphNode* p = g->adj_list[i];
@@ -196,7 +190,5 @@ int main(void) {
 	visited_init();
 	printf("\n");
 	bfs(&g, v);
-	
-	
 
 }
