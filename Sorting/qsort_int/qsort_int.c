@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 //오름차순
-int compare_int_up(const void* a, const void* b) {
+int compare_string_up(const void* a, const void* b) {
 	if (*(int*)a > *(int*)b)
 		return 1;
 	else if (*(int*)a < *(int*)b)
@@ -11,7 +11,7 @@ int compare_int_up(const void* a, const void* b) {
 		return 0;
 }
 //내림차순
-int compare_int_down(const void* a, const void* b) {
+int compare_string_down(const void* a, const void* b) {
 	if (*(int*)a < *(int*)b)
 		return 1;
 	else if (*(int*)a > *(int*)b)
@@ -27,14 +27,14 @@ int main(void) {
 		printf("%d ", arr[i]);
 	}
 
-	qsort(arr, 10, sizeof(arr[0]), compare_int_up);
+	qsort(arr, 10, sizeof(arr[0]), compare_string_up);
 
 	printf("\n오름차순 :");
 	for (int i = 0; i < 10; i++) {
 		printf("%d ", arr[i]);
 	}
 
-	qsort(arr, 10, sizeof(arr[0]), compare_int_down);
+	qsort(arr, 10, sizeof(arr[0]), compare_string_down);
 
 	printf("\n내림차순 :");
 	for (int i = 0; i < 10; i++) {
