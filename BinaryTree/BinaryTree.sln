@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "binaryTree_linked", "binaryTree_linked\binaryTree_linked.vcxproj", "{17219DCC-C08C-4C97-82F9-B5AB34426BFD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "반복적순회", "반복적순회\반복적순회.vcxproj", "{899CBD13-4F0D-46F5-985A-02E3680198DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{17219DCC-C08C-4C97-82F9-B5AB34426BFD}.Release|x64.Build.0 = Release|x64
 		{17219DCC-C08C-4C97-82F9-B5AB34426BFD}.Release|x86.ActiveCfg = Release|Win32
 		{17219DCC-C08C-4C97-82F9-B5AB34426BFD}.Release|x86.Build.0 = Release|Win32
+		{899CBD13-4F0D-46F5-985A-02E3680198DB}.Debug|x64.ActiveCfg = Debug|x64
+		{899CBD13-4F0D-46F5-985A-02E3680198DB}.Debug|x64.Build.0 = Debug|x64
+		{899CBD13-4F0D-46F5-985A-02E3680198DB}.Debug|x86.ActiveCfg = Debug|Win32
+		{899CBD13-4F0D-46F5-985A-02E3680198DB}.Debug|x86.Build.0 = Debug|Win32
+		{899CBD13-4F0D-46F5-985A-02E3680198DB}.Release|x64.ActiveCfg = Release|x64
+		{899CBD13-4F0D-46F5-985A-02E3680198DB}.Release|x64.Build.0 = Release|x64
+		{899CBD13-4F0D-46F5-985A-02E3680198DB}.Release|x86.ActiveCfg = Release|Win32
+		{899CBD13-4F0D-46F5-985A-02E3680198DB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
