@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "binaryTree_linked", "binary
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "반복적순회", "반복적순회\반복적순회.vcxproj", "{899CBD13-4F0D-46F5-985A-02E3680198DB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "level_order", "level_order\level_order.vcxproj", "{A8C22073-4351-463A-AB78-7A4B55DD2D6F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{899CBD13-4F0D-46F5-985A-02E3680198DB}.Release|x64.Build.0 = Release|x64
 		{899CBD13-4F0D-46F5-985A-02E3680198DB}.Release|x86.ActiveCfg = Release|Win32
 		{899CBD13-4F0D-46F5-985A-02E3680198DB}.Release|x86.Build.0 = Release|Win32
+		{A8C22073-4351-463A-AB78-7A4B55DD2D6F}.Debug|x64.ActiveCfg = Debug|x64
+		{A8C22073-4351-463A-AB78-7A4B55DD2D6F}.Debug|x64.Build.0 = Debug|x64
+		{A8C22073-4351-463A-AB78-7A4B55DD2D6F}.Debug|x86.ActiveCfg = Debug|Win32
+		{A8C22073-4351-463A-AB78-7A4B55DD2D6F}.Debug|x86.Build.0 = Debug|Win32
+		{A8C22073-4351-463A-AB78-7A4B55DD2D6F}.Release|x64.ActiveCfg = Release|x64
+		{A8C22073-4351-463A-AB78-7A4B55DD2D6F}.Release|x64.Build.0 = Release|x64
+		{A8C22073-4351-463A-AB78-7A4B55DD2D6F}.Release|x86.ActiveCfg = Release|Win32
+		{A8C22073-4351-463A-AB78-7A4B55DD2D6F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
