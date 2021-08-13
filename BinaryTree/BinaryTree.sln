@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "evaluate _tree", "evaluate 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "threaded_binary_tree", "threaded_binary_tree\threaded_binary_tree.vcxproj", "{1DC7ECEC-5CD5-4336-8ADE-B960EB757754}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bst", "bst\bst.vcxproj", "{82AE0D9D-9E7F-4513-BC34-9674E9551BEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{1DC7ECEC-5CD5-4336-8ADE-B960EB757754}.Release|x64.Build.0 = Release|x64
 		{1DC7ECEC-5CD5-4336-8ADE-B960EB757754}.Release|x86.ActiveCfg = Release|Win32
 		{1DC7ECEC-5CD5-4336-8ADE-B960EB757754}.Release|x86.Build.0 = Release|Win32
+		{82AE0D9D-9E7F-4513-BC34-9674E9551BEE}.Debug|x64.ActiveCfg = Debug|x64
+		{82AE0D9D-9E7F-4513-BC34-9674E9551BEE}.Debug|x64.Build.0 = Debug|x64
+		{82AE0D9D-9E7F-4513-BC34-9674E9551BEE}.Debug|x86.ActiveCfg = Debug|Win32
+		{82AE0D9D-9E7F-4513-BC34-9674E9551BEE}.Debug|x86.Build.0 = Debug|Win32
+		{82AE0D9D-9E7F-4513-BC34-9674E9551BEE}.Release|x64.ActiveCfg = Release|x64
+		{82AE0D9D-9E7F-4513-BC34-9674E9551BEE}.Release|x64.Build.0 = Release|x64
+		{82AE0D9D-9E7F-4513-BC34-9674E9551BEE}.Release|x86.ActiveCfg = Release|Win32
+		{82AE0D9D-9E7F-4513-BC34-9674E9551BEE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
