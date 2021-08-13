@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "heap", "Priority Queue\Prio
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "heap_sorting", "heap_sorting\heap_sorting.vcxproj", "{1D874EE0-2193-4A01-B8D9-59CFD0FA7D3F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "scheduling_Algorithm", "scheduling_Algorithm\scheduling_Algorithm.vcxproj", "{07DF9E1C-93A7-4998-BFAD-861335417436}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{1D874EE0-2193-4A01-B8D9-59CFD0FA7D3F}.Release|x64.Build.0 = Release|x64
 		{1D874EE0-2193-4A01-B8D9-59CFD0FA7D3F}.Release|x86.ActiveCfg = Release|Win32
 		{1D874EE0-2193-4A01-B8D9-59CFD0FA7D3F}.Release|x86.Build.0 = Release|Win32
+		{07DF9E1C-93A7-4998-BFAD-861335417436}.Debug|x64.ActiveCfg = Debug|x64
+		{07DF9E1C-93A7-4998-BFAD-861335417436}.Debug|x64.Build.0 = Debug|x64
+		{07DF9E1C-93A7-4998-BFAD-861335417436}.Debug|x86.ActiveCfg = Debug|Win32
+		{07DF9E1C-93A7-4998-BFAD-861335417436}.Debug|x86.Build.0 = Debug|Win32
+		{07DF9E1C-93A7-4998-BFAD-861335417436}.Release|x64.ActiveCfg = Release|x64
+		{07DF9E1C-93A7-4998-BFAD-861335417436}.Release|x64.Build.0 = Release|x64
+		{07DF9E1C-93A7-4998-BFAD-861335417436}.Release|x86.ActiveCfg = Release|Win32
+		{07DF9E1C-93A7-4998-BFAD-861335417436}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
