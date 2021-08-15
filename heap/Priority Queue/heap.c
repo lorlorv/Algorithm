@@ -19,7 +19,7 @@ void init(HeapType* h) {
 	h->heap_size = 0;
 }
 
-void insert(HeapType* h, element item) {
+void insert_max_heap(HeapType* h, element item) {
 	int i;
 	i = ++(h->heap_size);
 	while (i != 1 && (item.key > h->heap[i / 2].key)) {
@@ -29,7 +29,7 @@ void insert(HeapType* h, element item) {
 	h->heap[i] = item; //자리에 item 넣기
 }
 
-element delete_heap(HeapType* h) {
+element delete_max_heap(HeapType* h) {
 	int parent, child;
 	element item, temp;
 
@@ -57,15 +57,15 @@ int main(void)
 	heap = create(); // 히프 생성
 	init(heap); // 초기화
 	// 삽입
-	insert(heap, e1);
-	insert(heap, e2);
-	insert(heap, e3);
+	insert_max_heap(heap, e1);
+	insert_max_heap(heap, e2);
+	insert_max_heap(heap, e3);
 	// 삭제
-	e4 = delete_heap(heap);
+	e4 = delete_max_heap(heap);
 	printf("< %d > ", e4.key);
-	e5 = delete_heap(heap);
+	e5 = delete_max_heap(heap);
 	printf("< %d > ", e5.key);
-	e6 = delete_heap(heap);
+	e6 = delete_max_heap(heap);
 	printf("< %d > \n", e6.key);
 	free(heap);
 	return 0;
