@@ -73,7 +73,7 @@ int main(void)
 			m = delete_heap(h);
 			printf("JOB %d을 시간=%d부터 시간=%d까지 기계 %d번에 할당한다. \n",i, m.available, m.available + jobs[i] - 1, m.id);
 			m.available += jobs[i];
-			insert_min_heap(h, m);
+			insert_max_heap(h, m);
 		}
 	return 0;
 }
